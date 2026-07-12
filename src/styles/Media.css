@@ -464,6 +464,7 @@
 
     .footer-section>h3 {
         font-size: 35px;
+        text-align: center;
     }
 
     .footer-section li {
@@ -908,7 +909,62 @@
     }
 
 
+ .contact-right {
+        padding: 20px 15px;
+    }
 
+    .contact-right h3 {
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .info-box {
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+        height: auto;          /* height:100px hata do */
+        margin-bottom: 20px;
+    }
+
+    .icon {
+        font-size: 22px;
+        min-width: 25px;
+    }
+
+    .info-box h4 {
+        font-size: 18px;
+        margin-bottom: 5px;
+        text-align: left;      /* center mat rakho */
+    }
+
+    .info-box p {
+        font-size: 15px;
+        line-height: 24px;
+        word-break: break-word;
+    }
+
+    .social-box h4 {
+        font-size: 22px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .social-icons a {
+        width: 45px;
+        height: 45px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     /* case .studies */
 
     .featured-case {

@@ -1,0 +1,131 @@
+@media (max-width:480px) {
+    .cart{
+        height: 500px !important;
+    }
+    .card-front,.cart-back{
+        height: 700px !important;
+    }
+    .cart-inner{
+        height:700px;
+    }
+    .card-back{
+        height: 470px;
+    }
+    .hero-text{
+        font-size: 22px !important;
+        line-height: 2rem;
+    }
+    #sevicess{
+        padding: 20px;
+    }
+    #servicess>p{
+        font-size: 35px !important;
+    }
+
+    .story-card{
+        height: 700px;
+    }
+    .story-content{
+        height: 400px;
+    }
+
+    #solution-path>p{
+        font-size: 40px;
+    }
+    .solution-cart{
+        height: 300px;
+    }
+    .process-header>span{
+        font-size: 50px;
+    }
+    .process-header>h2{
+        font-size: 30px;
+    }
+    .process-header>p{
+        font-size: 35px;
+    }
+    .card-content p{
+        font-size: 35px;
+        line-height: 3rem;
+    }
+
+
+#industries{
+    padding: 10px;
+}
+    #industries>h2{
+        font-size: 45px;
+    }
+    #industries>p{
+        font-size: 30px;
+    }
+    .industries-card{
+        width: 350px;
+        height: 300px;
+    }
+    .right>h3{
+        font-size: 30px;
+    }
+    .right>p{
+        font-size: 28px;
+    }
+
+
+    .section-title>h2{
+        font-size: 50px;
+    }
+    .section-title>p{
+        font-size: 30px;
+    }
+    .career-content>h3{
+        font-size: 40px;
+    }
+
+
+    .section-title>h2{
+        font-size: 45px;
+    }
+    .job-detalis>h3{
+        font-size: 35px;
+    }
+    .job-detalis>p{
+        font-size: 30px;
+    }
+    .job-card button{
+        width: 200px;
+        padding: 2px 30px;
+        font-size: 20px;
+        line-height: 2rem;
+    }
+
+
+.contact-wrapper{
+    padding: 0;
+}
+    .section-tag{
+        font-size: 40px;
+    }
+    .section-tag h2{
+        font-size: 20px;
+    }
+    .contact-left p{
+        font-size: 26px;
+        padding-left: 10px;
+        padding-right: 40px;
+    }
+        .contact-form button{
+        width: 300px;
+       margin-left: 70px;
+    }
+    .contact-right>h3{
+        font-size: 45px;
+    }
+
+.info-box h4{
+    text-align: center;
+}
+
+        .info-box p{
+            font-size: 29px;
+        }
+}

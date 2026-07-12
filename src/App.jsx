@@ -13,9 +13,21 @@ import CaseStudies from './pages/CaseStudies';
 import Career from './pages/Career';
 import Contactus from './pages/Contactus'
 import Footer from './componets/Footer'
+import Loader from "./componets/Loader"
 import Admin from './pages/Admin';
 
 function App() {
+   const [loading, setLoading] = useState(true);
+    useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+ 
+
   const MainLayout = () => {
   return (
     <>
@@ -25,6 +37,7 @@ function App() {
     </>
   )
 }
+
    useEffect(() => {
     AOS.refresh();
   }, []);
@@ -36,6 +49,9 @@ function App() {
   });
   
  },[]);
+  if (loading) {
+    return <Loader />;
+  }
 
   return (
     <>

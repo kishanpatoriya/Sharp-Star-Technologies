@@ -78,10 +78,7 @@
     #industries>p{
         font-size: 30px;
     }
-    .industries-card{
-        width: 350px;
-        height: 300px;
-    }
+   
     .right>h3{
         font-size: 30px;
     }
@@ -128,7 +125,7 @@
     width: 100%;
 }
 .industries-card {
-        width: 330px;
+        width: 310px;
         height: 320px;
         margin-bottom: 40px;
     }

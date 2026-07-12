@@ -78,7 +78,7 @@ function Home() {
         {
             id: "AI & automation solutions",
             icon: "ti-robot", title: "AI & automation solutions",
-            desc: "Automate workflows and enhance decision-making with intelligent AI-powered solutions for your business goals.",
+            desc: "Automate workflows and enhance decision-making business goals.",
 
         }
     ]

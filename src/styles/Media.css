@@ -747,6 +747,8 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-top: 20px;
+        justify-content: space-between;
+        padding: 20px;
     }
 
     .industries-card {
@@ -756,7 +758,7 @@
     }
 
     .left {
-        padding-right: 40px;
+        padding-right: 30px;
     }
 
     .industries-icon>i {

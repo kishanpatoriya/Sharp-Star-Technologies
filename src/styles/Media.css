@@ -183,7 +183,7 @@
     }
 
     .project-title {
-        font-size: 45px !important;
+        font-size: 30px !important;
 
     }
 
@@ -206,11 +206,11 @@
     }
 
     .cart>p {
-        font-size: 26px !important;
+        font-size: 26px;
     }
 
     .f-peragraph {
-        font-size: 30px !important;
+        font-size: 30px;
     }
 
     .card-back {
@@ -1047,7 +1047,7 @@
 
     .story-card {
         margin-bottom: 10px;
-        min-height: 800px;
+        min-height: 500px;
     }
 
 

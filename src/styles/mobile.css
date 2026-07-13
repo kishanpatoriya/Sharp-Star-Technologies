@@ -1,66 +1,223 @@
 @media (max-width:480px) {
+    .second-left-image{
+        width: 320px;
+        margin-left: 25px;
+    }
     .second-right h2{
         margin-top: 80px;
     }
+    .second-right h3{
+        font-size: 22px;
+    }
+    .f-peragraph{
+        font-size: 18px;
+    }
+    .third-container span{
+        font-size: 30px;
+    }
+    .third-span{
+        padding-left: 0;
+    }
+    .third-container h1{
+        font-size: 20px;
+    }
+    .project-card .project-title{
+        font-size: 26px !important;
+    }
+    .project-card h3{
+        font-size: 18px !important;
+    }
+    .project-card2 .project-title{
+        font-size: 26px !important;
+    }
+    .project-card2 p{
+        font-size: 18px;
+    }
+    .card2-img{
+        margin-top: 0;
+    }
+    .services-heading{
+        font-size: 33px;
+    }
+    #services p{
+        font-size: 18px;
+    }
     .cart{
-        height: 600px !important;
+        height: 325px !important;
+    }
+    .card-front h4{
+        font-size: 26px;
     }
     .card-front,.cart-back{
-        height: 700px !important;
+        height: 300px !important;
+    }
+    .card-front i{
+        font-size: 50px;
+    }
+    .card-front p{
+        line-height: 1.7rem;
+        font-size: 18px !important;
     }
     .cart-inner{
-        height:700px;
+        height:300px !important;
     }
     .card-back{
-        height: 580px;
+        height: 300px;
+    }
+    .card-back h4{
+        font-size: 26px;
+    }
+    .card-back p{
+        font-size: 22px;
+    }
+    .card-back li{
+        font-size: 20px;
     }
     .hero-text{
         font-size: 22px !important;
         line-height: 2rem;
     }
+    .cart i{
+        font-size: 45px;
+    }
+    .service-title{
+        font-size: 26px !important;
+    }
+    .service-detalis{
+        font-size: 18px ;
+    }
+    #our-leadership-team h2{
+        font-size: 33px;
+    }
+    .member-name{
+        font-size: 24px;
+    }
+    .member-position{
+        font-size: 20px;
+    }
     #sevicess{
         padding: 20px;
     }
     #servicess>p{
-        font-size: 35px !important;
+        font-size: 28px !important;
     }
+    #serve h2{
+        font-size: 30px;
+    }
+    #serve p{
+        font-size: 20px;
+    }
+    .success-stories{
+        margin-top:40px;
+    }
+    
 .all-serve{
     gap: 10px;
 }
+.serve {
+    height: 130px;
+}
+
 .serve-title{
     font-size: 20px;
 }
-
-
+.serve i{
+    font-size: 50px;
+}
+.serve h4{
+    font-size: 18px !important;
+}
+.success-stories h2{
+    font-size: 30px;
+}
+.choose-left h2{
+    font-size: 33px;
+}
+.choose-left p{
+    font-size: 20px;
+}
+.point-card i{
+    font-size: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 130px;
+    
+}
+.choose-right{
+    height: 300px;
+}
+.point-card h4{
+    font-size: 24px !important;
+}
+.point-card p{
+    font-size: 18px !important;
+    line-height: 1.7rem;
+}
     .story-card{
-        padding: 0px 10px;
-        width: 380px;
-        height: 700px;
+        margin: 0 10px;
+        width: 350px;
+        height: 200px !important;
+    }
+    .story-card img{
+        width: 350px;
+        height: 200px;
     }
     .story-content{
         height: 400px;
     }
-
+.story-content span{
+    font-size: 20px !important;
+}
+.story-content h3{
+    font-size: 28px;
+}
+.story-content p{
+    font-size: 22px;
+}
+.story-content p{
+    font-size: 18px;
+}
     #solution-path>p{
-        font-size: 40px;
-    }
-    .solution-cart{
-        height: 300px;
-    }
-    .process-header>span{
-        font-size: 50px;
-    }
-    .process-header>h2{
         font-size: 30px;
     }
-    .process-header>p{
+  
+    .solution-cart{
+        height: 200px;
+    }
+    .solution-cart-detalis h4{
+        font-size: 24px;
+    }
+    .solution-cart-detalis p{
+        font-size: 20px;
+    }
+    .process-header>span{
         font-size: 35px;
+    }
+    .process-header>h2{
+        font-size: 22px;
+    }
+    .process-header>p{
+        font-size: 20px;
+        line-height:2rem;
+    }
+    .card-content h3{
+        font-size: 24px;
     }
     .card-content p{
-        font-size: 35px;
-        line-height: 3rem;
+        font-size: 20px;
+        line-height: 2rem;
     }
-
+    .card-content .step{
+        font-size: 35px;
+    }
+    .icon-circle{
+        width: 70px;
+        height: 70px;
+    }
+.ri-search-eye-line{
+    font-size: 30px !important;
+}
 
 #industries{
     padding: 10px;
@@ -74,46 +231,59 @@
         margin-left:-12px;
     }
     #industries>h2{
-        font-size: 45px;
+        font-size: 33px;
     }
     #industries>p{
-        font-size: 30px;
+        font-size: 20px;
     }
    .right{
     margin-left: -23px;
    }
     .right>h3{
-        font-size: 30px;
+        font-size: 26px;
     }
     .right>p{
-        font-size: 28px;
+        font-size: 20px;
     }
-
-
-    .section-title>h2{
+    .industries-icon i{
         font-size: 50px;
     }
-    .section-title>p{
-        font-size: 30px;
-    }
-    .career-content>h3{
-        font-size: 40px;
-    }
 
 
     .section-title>h2{
-        font-size: 45px;
-    }
-    .job-detalis>h3{
         font-size: 35px;
     }
+    .section-title>p{
+        font-size: 20px;
+        line-height: 1.5rem;
+    }
+    .career-content>h3{
+        font-size: 26px;
+    }
+.career-content>p{
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+
+.career-icon{
+    width: 50px;
+    height: 50px;
+}
+.career-icon i{
+    font-size: 30px;
+}
+    
+    .job-detalis>h3{
+        font-size: 22px;
+    }
     .job-detalis>p{
-        font-size: 30px;
+        font-size: 20px;
+        line-height: 1.5rem;
     }
     .job-card button{
         width: 200px;
         padding: 2px 30px;
-        font-size: 20px;
+        font-size: 15px;
         line-height: 2rem;
     }
 
@@ -129,8 +299,54 @@
 }
 .industries-card {
         width: 320px;
-        height: 320px;
+        height: 210px;
         margin-bottom: 40px;
+    }
+    .right>h3{
+        padding-top: 10;
+    }
+    .case-tag{
+        font-size: 18px;
+    }
+    .case-content h2{
+        font-size: 30px;
+    }
+    .case-content p{
+        font-size: 22px;
+    }
+    .stat-box h3{
+        font-size: 30px;
+    }
+    .stat-box span{
+        font-size: 22px;
+    }
+    .story-back h3{
+        font-size: 28px;
+    }
+    .story-back p{
+        font-size: 22px;
+    }
+    .story-back li{
+        font-size: 20px;
+    }
+
+    .impact-section h2{
+        font-size: 35px;
+    }
+    .impact-grid>div>h3{
+        font-size: 30px;
+    }
+    .impact-grid>div>p{
+        font-size: 22px;
+    }
+    .case-cta>div>h2{
+        font-size: 28px;
+    }
+    .case-cta>div>p{
+        font-size: 22px;
+    }
+    .case-cta button{
+        font-size: 20px;
     }
 .section-tag {
     font-size: 26px;
@@ -187,7 +403,7 @@
 }
 
 .contact-right h3 {
-    font-size: 24px;
+    font-size: 30px !important;
     text-align: center;
 }
 
@@ -206,13 +422,13 @@
 }
 
 .info-box p {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 24px;
     word-break: break-word;
 }
 
 .social-box h4 {
-    font-size: 22px;
+    font-size: 28px !important;
     text-align: center;
 }
 
@@ -226,7 +442,7 @@
 }
 
 .info-box h4 {
-    font-size: 26px;
+    font-size: 22px;
 }
 
 .social-box h4 {
@@ -239,16 +455,47 @@
     font-size: 20px;
 }
 
+.about-second-right h2{
+    font-size: 35px;
+}
+.stats-heading{
+    font-size: 28px;
+}
+.mission-title {
+    font-size: 28px;
+}
+.mission-detalis{
+    font-size: 20px;
+}
+.stats-detalis{
+    font-size: 20px;
+}
+.about-f-peragraph{
+    font-size: 18px;
+}
 
-
+.services-h2 {
+    font-size: 35px;
+}
+.footer-section p{
+    font-size: 20px;
+}
 
 .footer-section>h3 {
-        font-size: 30px;
+        font-size: 24px;
     }
 
      .footer-section li {
-        font-size: 24px;
+        font-size: 18px;
         padding-bottom: 5px;
     }
-
+.home-contact-detalis{
+    font-size: 18px !important;
+}
+.home-contact-detalis i{
+    font-size: 20px;
+}
+.footer-bottom p{
+    font-size: 18px;
+}
 }

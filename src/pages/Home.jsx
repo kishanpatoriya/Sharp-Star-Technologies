@@ -154,15 +154,15 @@ function Home() {
                     </div>
                     <div className="second-right">
                         <h2 data-aos="fade-left">About Us</h2>
-                        <h3 data-aos="fade-right">Empowering Businesses <br />Through Innovative Technology</h3>
+                        <h3 data-aos="fade-right">Empowering Businesses Through Innovative Technology</h3>
                         <p data-aos="fade-right" className='f-peragraph'>For over a decade, we have been helping startups, enterprises, and growing businesses build reliable digital solutions that drive efficiency, growth, and long-term success.</p><br></br>
                         <p data-aos="fade-right" className='f-peragraph'>We take pride in delivering technology solutions that are not only visually modern but also highly functional, scalable, and performance-driven. Our team continuously adapts to the latest industry trends and emerging technologies to help businesses stay ahead in the digital world. </p>
                     </div>
                 </div>
 
                 <div className='third-container'>
-                    <center><span className="third-span" data-aos="fade-left"
-                    >Future-Ready Technology Solutions</span></center>
+                    <center><p className="third-span" data-aos="fade-left"
+                    >Future-Ready Technology Solutions</p></center>
                     <h1 data-aos="fade-right">Driving Innovation, Efficiency & Success</h1>
                     <div className='all-card'>
                         <div className="first-col">

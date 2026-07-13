@@ -49,9 +49,9 @@ function App() {
   });
   
  },[]);
-  if (loading) {
-    return <Loader />;
-  }
+  // if (loading) {
+  //   return <Loader />;
+  // }
 
   return (
     <>

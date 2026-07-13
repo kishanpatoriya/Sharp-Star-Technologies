@@ -19,7 +19,7 @@ body {
 
 .navbar {
     width: 100%;
-    height: 80px;   
+    height: 65px;   
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -44,11 +44,11 @@ body {
 }
 
 .company-logo {
-    height: 100px;
+    height: 110px;
     width: auto;
     margin-top: 0;
     display: block;
-    padding-top: 3px;
+    padding-top: 15px;
 }
 
 .nav-links {
@@ -208,17 +208,17 @@ body {
 }
 
 .second-left-image {
-    width: 750px;
-    max-width: 750px;
-    height: 500px;
+    width: 650px;
+    max-width: 650px;
+    height: 400px;
     background-image: url(../assets/office.jpg);
     border: 2px solid black;
     border-radius: 20px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-left: 50px;
-    /* margin-top: 60px; */
+    margin-left: 70px;
+    margin-top: 60px;
 }
 
 .second-right {
@@ -228,7 +228,8 @@ body {
 
 .second-right h2 {
     color: #1f4bff;
-    margin-top: 40px;
+    /* margin-top: 70px; */
+    padding-top: 50px;
     margin-left: 70px;
     font-size: 30px;
 }
@@ -244,7 +245,8 @@ body {
     margin-left: 75px;
     margin-top: 15px;
     text-align: left;
-    font-size: 22px;
+    font-size: 20px;
+    line-height:2rem;
 }
 
 /* third-container */
@@ -259,14 +261,16 @@ body {
 .third-container span {
     color: #1f4bff;
     padding-left: 50px;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
+   
 }
 
 .third-container h1 {
     padding-left: 50px;
     padding-top: 10px;
-    font-size: 30px;
+    font-size: 26px;
+    text-align: center;
 }
 
 /* four-container */
@@ -285,7 +289,7 @@ body {
 
 .project-title {
     color: #1f4bff;
-    font-size: 50px !important;
+    font-size: 35px !important;
     font-weight: 700;
     display: block;
     margin-bottom: 10px;
@@ -294,7 +298,7 @@ body {
 
 .project-card h3 {
     display: inline-block;
-    font-size: 30px;
+    font-size: 24px;
     background: #f3e7e7;
     padding: 5px 10px;
     font-weight: 700;
@@ -414,7 +418,7 @@ body {
 .project-card2 .project-title {
     font-weight: 700;
     color: #1f4bff;
-    font-size: 26px;
+    font-size: 20px;
     display: block;
     margin-bottom: 15px;
     margin-left: -50px;
@@ -422,7 +426,7 @@ body {
 
 .project-card2 p {
     line-height: 1.2;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .card2-img {
@@ -503,7 +507,8 @@ body {
 }
 
 .cart>p {
-    font-size: 24px !important;
+    font-size: 20px !important;
+    line-height: 1.9rem;
 }
 .card-back {
     transform: rotateY(180deg); overflow-y: auto;
@@ -854,9 +859,11 @@ img,
 }
 
 .about-second-left-image {
-    width: 750px;
+    width: 600px;
     /* max-width: 750px; */
-    height: 450px;
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 50px;
     background-image: url("https://cdn.sanity.io/images/uqxwe2qj/production/aa64141e7345a49097059ed8df68be12c7b219d1-7732x4879.jpg?q=80&auto=format&fit=clip&w=1440");
     border: 2px solid black;
     border-radius: 20px;
@@ -877,6 +884,7 @@ img,
 .about-second-right {
     width: 50%;
     height: 500px;
+    padding-left: 30px;
 }
 
 .about-f-peragraph {
@@ -887,7 +895,7 @@ img,
 
 .about-second-right h2 {
     color: #173fde;
-    font-size: 60px;
+    font-size: 40px;
     padding-top: 60px;
     padding-bottom: 10px;
 }
@@ -901,7 +909,7 @@ img,
 #our-mission {
     width: 100%;
     display: flex;
-    padding: 20px;
+    padding: 18px;
 }
 
 .our-left {
@@ -940,11 +948,13 @@ img,
     width: 100%;
     height: auto;
 }
-
+.service-detalis{
+    font-size: 10px;
+}
 .services-h2 {
     text-align: left;
     padding-left: 25px;
-    font-size: 50px;
+    font-size: 40px;
     color: #173fde;
 }
 
@@ -957,7 +967,7 @@ img,
 #our-leadership-team h2 {
     padding-left: 10px;
     padding-bottom: 20px;
-    font-size: 50px;
+    font-size: 40px;
     color: #173fde;
 }
 
@@ -988,7 +998,7 @@ img,
 .member-position {
     text-align: center;
     padding-top: 5px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -1043,7 +1053,7 @@ img,
 
 #servicess>p {
     text-align: center;
-    font-size: 50px !important;
+    font-size: 38px !important;
     font-weight: bold;
     color: #173fde;
 }
@@ -1114,7 +1124,7 @@ img,
 #solution-path>p{
     padding-top: 30px;
     padding-bottom: 30px;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
     text-align: center;
     color: #173fde;
@@ -1150,7 +1160,7 @@ transition: 0.3s;
     padding-left: 20px;
 }
 .solution-cart-detalis >h4{
-    font-size: 30px;
+    font-size: 24px;
 }
 .solution-cart-detalis>p{
     font-size: 20px;
@@ -1174,11 +1184,11 @@ transition: 0.3s;
     color:#2563eb;
     font-weight:700;
     letter-spacing:2px;
-    font-size: 60px;
+    font-size:40px;
 }
 
 .process-header h2{
-    font-size:55px;
+    font-size:30px;
     color:#081c45;
     margin:15px 0;
 }
@@ -1186,8 +1196,7 @@ transition: 0.3s;
 .process-header p{
     color:#6b7280;
     line-height:1.8;
-    font-size:18px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .process-grid{
@@ -1323,12 +1332,12 @@ transition: 0.3s;
 /* industries page  */
 #industries>h2{
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     color: #173fde;
     padding-top: 20px;
 }
 #industries>p{
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
     padding-top: 10px;
 }
@@ -1366,12 +1375,12 @@ transition: 0.3s;
 }
 
 .right h3{
-    font-size: 26px;
+    font-size: 24px;
     padding-top: 20px;
     padding-bottom: 10px;
 }
 .right p{
-    font-size: 22px;
+    font-size: 20px;
 }
 
 /* Common Section */
@@ -1388,13 +1397,13 @@ transition: 0.3s;
 }
 
 .section-title h2{
-    font-size: 50px;
+    font-size: 40px;
     color: #173fde;
     margin-bottom: 15px;
 }
 
 .section-title p{
-    font-size: 22px;
+    font-size: 20px;
     color: #666;
 }
 
@@ -1543,7 +1552,7 @@ transition: 0.3s;
 }
 
 .contact-left h2{
-    font-size:48px;
+    font-size:40px;
     margin:15px 0;
     color:#0f172a;
 }
@@ -1554,9 +1563,9 @@ transition: 0.3s;
 
 .contact-left p{
     color:#64748b;
-    line-height:1.8;
+    line-height:1.5;
     margin-bottom:30px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .contact-form{
@@ -1611,7 +1620,7 @@ transition: 0.3s;
 .contact-right h3{
     margin-bottom:30px;
     color: #173fde;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .info-box{
@@ -1635,12 +1644,12 @@ transition: 0.3s;
 .info-box h4{
     margin-bottom:5px;
     color:#0f172a;
-    font-size: 26px;
+    font-size: 22px;
 }
 
 .info-box p{
     color:#64748b;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .social-box{
@@ -1697,14 +1706,14 @@ transition: 0.3s;
 }
 
 .case-content h2{
-    font-size:48px;
+    font-size:33px;
     margin:20px 0;
 }
 
 .case-content p{
     color:#64748b;
-    line-height:1.8;
-    font-size: 22px;
+    line-height:1.5;
+    font-size: 20px;
 }
 
 .case-stats{
@@ -1748,7 +1757,7 @@ transition: 0.3s;
 .success-stories h2{
     text-align:center;
     margin-bottom:50px;
-    font-size: 50px;
+    font-size: 40px;
     color: #173fde;
 }
 
@@ -1826,18 +1835,18 @@ gap: 50px;
 
 .story-content span{
     color:#2563eb;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .story-content h3{
     margin:15px 0;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .story-content p{
     color:#64748b;
     padding-bottom: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .story-content a{
@@ -1860,7 +1869,7 @@ gap: 50px;
 .impact-section h2{
     text-align:center;
     margin-bottom:50px;
-    font-size: 50px;
+    font-size: 40px;
     color: #173fde;
 }
 
@@ -1872,10 +1881,11 @@ gap: 50px;
 
 .impact-grid h3{
     color:#2563eb;
-    font-size:40px;
+    font-size:34px;
 }
 .impact-grid p{
-    font-size: 20px;
+    padding-top: 5px;
+    font-size: 18px;
 }
 .case-cta{
     max-width:1200px;
@@ -1891,9 +1901,10 @@ gap: 50px;
 }
 .case-cta h2{
     padding-bottom: 10px;
+    font-size: 22px;
 }
 .case-cta p{
-    font-size: 20px;
+    font-size: 18px;
 }
 .case-cta button{
     padding:15px 30px;

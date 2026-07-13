@@ -6,7 +6,7 @@ function Contactus() {
   const [form, setForm] = useState({
     name: "",
     email: "",
-    phone: "", // Note: Maine 'Subject' ki jagah form match karne ke liye 'Phone' use kiya hai
+    phone: "", 
     message: "",
   });
 
@@ -19,25 +19,24 @@ function Contactus() {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // 1. Check if fields are empty
     if (!form.name || !form.email || !form.phone || !form.message) {
       setStatus("All fields are required");
       return;
     }
     
-    // 2. LocalStorage se purana data nikalein
+    
     const existingMessages = JSON.parse(localStorage.getItem('contacts_data')) || [];
     
-    // 3. Naya form data array mein add karein
+   
     const newMessagesArray = [...existingMessages, form];
     
-    // 4. Update kiye hue array ko wapas LocalStorage mein save karein
+    
     localStorage.setItem('contacts_data', JSON.stringify(newMessagesArray));
     
-    // 5. Admin page ko notify karne ke liye event trigger karein
+    
     window.dispatchEvent(new Event("storage_updated"));
 
-    // 6. Success message set karein aur form clear karein
+    
     setStatus("Message sent Successfully!");
     setForm({
       name: "",
@@ -46,7 +45,6 @@ function Contactus() {
       message: "",
     });
     
-    // Thodi der baad success message hatane ke liye (Optional)
     setTimeout(() => {
       setStatus("");
     }, 3000);

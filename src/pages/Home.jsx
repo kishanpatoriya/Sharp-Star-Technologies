@@ -155,13 +155,14 @@ function Home() {
                     <div className="second-right">
                         <h2 data-aos="fade-left">About Us</h2>
                         <h3 data-aos="fade-right">Empowering Businesses <br />Through Innovative Technology</h3>
-                        <p data-aos="fade-right" className='f-peragraph'>For over a decade, we have been helping startups, enterprises, and growing businesses build reliable digital solutions that drive efficiency, growth, and long-term success. Our mission is to transform ideas into scalable technology with a focus on quality, innovation, and customer satisfaction.</p><br></br>
-                        <p data-aos="fade-right" className='f-peragraph'>We take pride in delivering technology solutions that are not only visually modern but also highly functional, scalable, and performance-driven. Our team continuously adapts to the latest industry trends and emerging technologies to help businesses stay ahead in the digital world. Whether it's improving customer engagement, automating workflows, or building intelligent systems, we are committed to providing solutions that support innovation, efficiency, and sustainable business growth.</p>
+                        <p data-aos="fade-right" className='f-peragraph'>For over a decade, we have been helping startups, enterprises, and growing businesses build reliable digital solutions that drive efficiency, growth, and long-term success.</p><br></br>
+                        <p data-aos="fade-right" className='f-peragraph'>We take pride in delivering technology solutions that are not only visually modern but also highly functional, scalable, and performance-driven. Our team continuously adapts to the latest industry trends and emerging technologies to help businesses stay ahead in the digital world. </p>
                     </div>
                 </div>
 
                 <div className='third-container'>
-                    <span data-aos="fade-left">Future-Ready Technology Solutions</span>
+                    <center><span className="third-span" data-aos="fade-left"
+                    >Future-Ready Technology Solutions</span></center>
                     <h1 data-aos="fade-right">Driving Innovation, Efficiency & Success</h1>
                     <div className='all-card'>
                         <div className="first-col">

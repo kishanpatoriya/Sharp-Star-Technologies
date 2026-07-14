@@ -208,8 +208,8 @@ body {
 }
 
 .second-left-image {
-    width: 650px;
-    max-width: 650px;
+    width: 600px;
+    /* max-width: 650px; */
     height: 400px;
     background-image: url(../assets/office.jpg);
     border: 2px solid black;
@@ -868,7 +868,6 @@ img,
 
 .about-second-left-image {
     width: 600px;
-    /* max-width: 750px; */
     height: 400px;
     margin-top: 70px;
     margin-left: 50px;
@@ -882,7 +881,6 @@ img,
 
 .about-second-container {
     display: flex;
-    /* margin-top: 20px; */
     padding: 20px;
     padding-top: 20px;
        background-color: #f3f5fb;

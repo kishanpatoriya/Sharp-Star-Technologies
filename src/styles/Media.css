@@ -141,9 +141,10 @@
     .second-left-image,
     .about-second-left-image {
         width: 100%;
-        max-width: 100%;
-        height: 250px;
-        margin: 0;
+        max-width: 500px;
+        height: 300px;
+        margin:0 auto;
+     
     }
 
     .second-right h2,
@@ -153,9 +154,6 @@
         text-align: center;
     }
 
-    .second-right h2 {
-        margin-top: 30px;
-    }
 
     .f-peragraph {
         font-size: 18px;
@@ -562,7 +560,11 @@
     .about-second-right {
         width: 100%;
     }
-
+.second-left-image {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 20px;
+    }
     .about-second-left-image {
         width: 100%;
         height: 250px;
@@ -575,7 +577,7 @@
     }
 
     .about-second-right h2 {
-        padding-top: 0px;
+        padding-top: 20px;
         font-size: 50px;
         text-align: center;
     }

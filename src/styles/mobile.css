@@ -1,11 +1,19 @@
 @media (max-width:480px) {
+   
+     .second-left-image,
+    .about-second-left-image {
+        width: 90%;
+        max-width: 350px;
+        height: 220px;
+        margin: 0 auto;
+    }
     .second-left-image{
-        width: 320px;
-        margin-left: 25px;
+        margin-bottom: 0;
     }
-    .second-right h2{
-        margin-top: 80px;
-    }
+    /* .second-right h2{
+        /* margin-top: 0px; */
+    } */
+    
     .second-right h3{
         font-size: 22px;
     }

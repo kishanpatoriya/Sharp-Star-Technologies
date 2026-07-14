@@ -148,9 +148,7 @@ function Home() {
 
                 {/* about us */}
                 <div className='second-container'>
-                    <div className="second-left" data-aos="fade-right">
                         <div className='second-left-image' >
-                        </div>
                     </div>
                     <div className="second-right">
                         <h2 data-aos="fade-left">About Us</h2>

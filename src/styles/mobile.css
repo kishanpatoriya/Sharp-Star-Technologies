@@ -8,12 +8,11 @@
         margin: 0 auto;
     }
     .second-left-image{
+        margin-top: 20px;
         margin-bottom: 0;
     }
-    /* .second-right h2{
-        /* margin-top: 0px; */
-    } */
-    
+   
+   
     .second-right h3{
         font-size: 22px;
     }

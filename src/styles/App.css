@@ -202,10 +202,7 @@ body {
 
 }
 
-.second-left {
-    width: 50%;
-    height: 100vh;
-}
+
 
 .second-left-image {
     width: 600px;
@@ -229,8 +226,6 @@ body {
 
 .second-right h2 {
     color: #1f4bff;
-    /* margin-top: 70px; */
-    padding-top: 50px;
     margin-left: 70px;
     font-size: 30px;
 }

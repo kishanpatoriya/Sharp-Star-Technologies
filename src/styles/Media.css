@@ -51,7 +51,7 @@
     }
 
     .nav-links li a {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 700;
         color: #111;
     }
@@ -1021,10 +1021,12 @@
     }
     .story-back{
         padding: 50px;
+        height: 500px;
+        overflow: scroll;
     }
 .story-back h3{
     font-size: 50px;
-}
+}   
 .story-back p{
     font-size: 32px;
 }

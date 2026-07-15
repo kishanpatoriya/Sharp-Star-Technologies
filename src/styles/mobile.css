@@ -12,7 +12,9 @@
         margin-bottom: 0;
     }
    
-   
+   .second-right{
+    padding-top: 10px;
+   }
     .second-right h3{
         font-size: 22px;
     }
